@@ -1,0 +1,105 @@
+CREATE PROCEDURE InsertExaminationData
+    @RollNo INT,
+    @SubcentreName VARCHAR(100),
+    @SubjectName VARCHAR(30),
+    @AbCountEc2 INT,
+    @ActualAbCount INT,
+    @Difference INT,
+    @Barcode VARCHAR(500),
+    @CentreName VARCHAR(200),
+    @TotalAbMentioned INT,
+    @TotalAbAttached INT,
+    @TotalAbEc5 INT,
+    @HandwritingMatch VARCHAR(40),
+    @StudentError VARCHAR(300),
+    @CenterError VARCHAR(300),
+    @OtherError VARCHAR(300),
+    @Remarks VARCHAR(600),
+    @ExtraManualCase VARCHAR(200)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    INSERT INTO ExaminationData (
+        RollNo,
+        SubcentreName,
+        SubjectName,
+        AbCountEc2,
+        ActualAbCount,
+        Difference,
+        Barcode,
+        CentreName,
+        TotalAbMentioned,
+        TotalAbAttached,
+        TotalAbEc5,
+        HandwritingMatch,
+        StudentError,
+        CenterError,
+        OtherError,
+        Remarks,
+        ExtraManualCase
+    )
+    VALUES (
+        @RollNo,
+        @SubcentreName,
+        @SubjectName,
+        @AbCountEc2,
+        @ActualAbCount,
+        @Difference,
+        @Barcode,
+        @CentreName,
+        @TotalAbMentioned,
+        @TotalAbAttached,
+        @TotalAbEc5,
+        @HandwritingMatch,
+        @StudentError,
+        @CenterError,
+        @OtherError,
+        @Remarks,
+        @ExtraManualCase
+    );
+END;
+
+
+EXEC InsertExaminationData
+    @RollNo = 1001,
+    @SubcentreName = 'Subcentre A',
+    @SubjectName = 'Mathematics',
+    @AbCountEc2 = 5,
+    @ActualAbCount = 4,
+    @Difference = 1,
+    @Barcode = 'ABC123456789',
+    @CentreName = 'Main Centre',
+    @TotalAbMentioned = 6,
+    @TotalAbAttached = 5,
+    @TotalAbEc5 = 4,
+    @HandwritingMatch = 'Yes',
+    @StudentError = 'Incorrect marking',
+    @CenterError = 'None',
+    @OtherError = 'None',
+    @Remarks = 'Check barcode alignment',
+    @ExtraManualCase = 'Special case noted';
+
+
+	select * from ExaminationData
+	
+	
+	{
+  "subcentreName": "Subcentre A,
+  "subjectName": "Mathematics",
+  "rollNo": 1001,
+  "abCountEc2": 5,
+  "actualAbCount":4,
+  "difference":1,
+  "barcode": "ABC123456789",
+  "centreName": "Main Centre",
+  "totalAbMentioned": 6,
+  "totalAbAttached": 5,
+  "totalAbEc5": 4,
+  "handwritingMatch": "Yes",
+  "studentError": "Incorrect marking",
+  "centerError": "None",
+  "otherError": "None",
+  "remarks": "Check barcode alignment",
+  "extraManualCase": "Special case noted"
+}
