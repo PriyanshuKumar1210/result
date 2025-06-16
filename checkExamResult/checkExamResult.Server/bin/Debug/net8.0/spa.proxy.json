@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:52237",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\PRIYANSHU\\Downloads\\checkExamResult\\checkExamResult\\checkExamResult.Server\\..\\checkexamresult.client",
+"WorkingDirectory": "F:\\checkExamResult\\checkExamResult\\checkExamResult.Server\\..\\checkexamresult.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

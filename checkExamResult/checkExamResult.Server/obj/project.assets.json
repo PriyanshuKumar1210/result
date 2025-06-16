@@ -2746,11 +2746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PRIYANSHU\\Downloads\\checkExamResult\\checkExamResult\\checkExamResult.Server\\checkExamResult.Server.csproj",
+      "projectUniqueName": "F:\\checkExamResult\\checkExamResult\\checkExamResult.Server\\checkExamResult.Server.csproj",
       "projectName": "checkExamResult.Server",
-      "projectPath": "C:\\Users\\PRIYANSHU\\Downloads\\checkExamResult\\checkExamResult\\checkExamResult.Server\\checkExamResult.Server.csproj",
+      "projectPath": "F:\\checkExamResult\\checkExamResult\\checkExamResult.Server\\checkExamResult.Server.csproj",
       "packagesPath": "C:\\Users\\PRIYANSHU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PRIYANSHU\\Downloads\\checkExamResult\\checkExamResult\\checkExamResult.Server\\obj\\",
+      "outputPath": "F:\\checkExamResult\\checkExamResult\\checkExamResult.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

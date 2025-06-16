@@ -2,3 +2,4 @@ C:\Users\Administrator\source\repos\checkExamResult\checkexamresult.client\obj\D
 D:\checkExamResult\checkexamresult.client\obj\Debug\checkexamresult.client.esproj.CoreCompileInputs.cache
 D:\checkExamResult\checkExamResult\checkexamresult.client\obj\Debug\checkexamresult.client.esproj.CoreCompileInputs.cache
 C:\Users\PRIYANSHU\Downloads\checkExamResult\checkExamResult\checkexamresult.client\obj\Debug\checkexamresult.client.esproj.CoreCompileInputs.cache
+F:\checkExamResult\checkExamResult\checkexamresult.client\obj\Debug\checkexamresult.client.esproj.CoreCompileInputs.cache
